@@ -129,13 +129,58 @@ whatsapp-api-integration/
 - [ ] Implementar HTTPS
 - [ ] Configurar PM2 ou similar
 
-## Suporte e Contribuição
+## Prompt para Integração com Outras Aplicações
 
-Para contribuir com o projeto:
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature
-3. Faça commit das mudanças
-4. Envie um pull request
+Use este prompt para solicitar ajuda de uma IA para integrar o WhatsApp Business API em sua aplicação:
+
+```markdown
+Preciso integrar a API do WhatsApp Business em minha aplicação existente. Aqui estão os detalhes:
+
+Tecnologias Atuais:
+- Backend: [especifique: Node.js/Python/PHP/etc]
+- Frontend: [especifique: React/Vue/Angular/etc]
+- Banco de Dados: [especifique: MongoDB/PostgreSQL/MySQL/etc]
+
+Credenciais do WhatsApp Business (já obtidas):
+- Phone Number ID: [seu_phone_number_id]
+- WhatsApp Business Account ID: [seu_business_account_id]
+- Access Token: [seu_token]
+
+Funcionalidades Necessárias:
+1. Envio de Mensagens:
+   - Enviar mensagens de texto
+   - Suporte para templates
+   - Tratamento de erros e retry
+
+2. Recebimento de Mensagens:
+   - Webhook para receber mensagens
+   - Processamento em tempo real
+   - Armazenamento no banco de dados
+
+3. Interface do Usuário:
+   - Lista de contatos
+   - Chat em tempo real
+   - Indicadores de status de mensagem
+   - Notificações de novas mensagens
+
+4. Integrações Adicionais:
+   - Sistema de autenticação existente
+   - Logs e monitoramento
+   - Métricas de uso
+
+Por favor, forneça:
+1. Mudanças necessárias na estrutura atual
+2. Código para integração no backend
+3. Componentes para o frontend
+4. Exemplos de tratamento de eventos
+5. Melhores práticas de segurança
+6. Estratégia de deploy
+
+Observações Importantes:
+- A aplicação precisa manter a estrutura atual
+- Necessário suporte a múltiplos usuários
+- Performance é crucial
+- Precisa seguir boas práticas de segurança
 
 ## Licença
 MIT License - Sinta-se livre para usar este projeto como base para sua implementação. 
